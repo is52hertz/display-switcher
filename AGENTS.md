@@ -16,9 +16,9 @@ three-monitor desk rather than general distribution.
 ## Project Phase
 
 <!-- TODO: A terse, kept-current snapshot of each app/package — not a log. Update in place; don't append history. -->
-- **DisplaySwitcher**: Initial macOS menu bar MVP in development; MAG and UHD
-  input mappings are hardware-verified, while RV200 control remains out of
-  scope until the Windows companion exists.
+- **DisplaySwitcher**: macOS menu bar MVP builds, packages, and launches; MAG
+  and UHD commands are covered by unit tests, while RV200 control remains out
+  of scope until the Windows companion exists.
 
 ## Development Rules
 
