@@ -17,8 +17,9 @@ three-monitor desk rather than general distribution.
 
 <!-- TODO: A terse, kept-current snapshot of each app/package — not a log. Update in place; don't append history. -->
 - **DisplaySwitcher**: macOS menu bar MVP builds, packages, and launches; MAG
-  and UHD commands are covered by unit tests, while RV200 control remains out
-  of scope until the Windows companion exists.
+  and UHD commands are covered by unit tests. The dependency-free Windows
+  companion safely probes and switches the known RV200; Windows-to-Mac is
+  hardware-verified, while return switching over non-current DP is unreliable.
 
 ## Development Rules
 
